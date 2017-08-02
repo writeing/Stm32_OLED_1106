@@ -1,0 +1,15 @@
+.\objects\qianxun.o: USER\qianxun.c
+.\objects\qianxun.o: .\HARDWARE\Ethernet\W5500\w5500.h
+.\objects\qianxun.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\qianxun.o: .\HARDWARE\Ethernet\wizchip_conf.h
+.\objects\qianxun.o: .\HARDWARE\Ethernet\W5500/w5500.h
+.\objects\qianxun.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\qianxun.o: .\HARDWARE\Ethernet\socket_w5500.h
+.\objects\qianxun.o: .\HARDWARE\DHCP\dhcp.h
+.\objects\qianxun.o: USER\main.h
+.\objects\qianxun.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\qianxun.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\qianxun.o: .\HARDWARE\qxwz_sdk\socket.h
+.\objects\qianxun.o: .\HARDWARE\qxwz_sdk\qxwz_rtcm.h
+.\objects\qianxun.o: E:\keil5\ARM\ARMCC\Bin\..\include\time.h
+.\objects\qianxun.o: .\HARDWARE\qxwz_sdk\prefs.h

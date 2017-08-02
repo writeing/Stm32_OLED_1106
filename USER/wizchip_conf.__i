@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE
+-I C:\Users\DELL\Desktop\ǧѰ\QXW5500\USER\RTE
+-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+-I E:\keil5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o .\wizchip_conf.o --omf_browse .\wizchip_conf.crf --depend .\wizchip_conf.d "..\HARDWARE\Ethernet\wizchip_conf.c"

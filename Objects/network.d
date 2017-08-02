@@ -1,0 +1,11 @@
+.\objects\network.o: USER\network.c
+.\objects\network.o: .\HARDWARE\Ethernet\W5500\w5500.h
+.\objects\network.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\network.o: .\HARDWARE\Ethernet\wizchip_conf.h
+.\objects\network.o: .\HARDWARE\Ethernet\W5500/w5500.h
+.\objects\network.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\network.o: .\HARDWARE\Ethernet\socket_w5500.h
+.\objects\network.o: .\HARDWARE\DHCP\dhcp.h
+.\objects\network.o: USER\main.h
+.\objects\network.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\network.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h

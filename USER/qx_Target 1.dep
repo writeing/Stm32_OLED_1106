@@ -1,0 +1,253 @@
+Dependencies for Project 'qx', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x596C4561)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\DELAY\delay.h)(0x59437A04)
+I (..\USER\stm32f10x.h)(0x59438948)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x5943887C)
+I (..\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\LED\led.h)(0x56EB53AA)
+I (..\USART\usart.h)(0x5940F49F)
+I (E:\keil5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\HARDWARE\SPI\spi.h)(0x59688C6D)
+I (E:\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (main.h)(0x596717E5)
+I (E:\keil5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\HARDWARE\TIME\Time_test.h)(0x59438B34)
+I (OLED.h)(0x596C446E)
+F (.\stm32f10x_it.c)(0x596717F1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_it.o --omf_browse .\stm32f10x_it.crf --depend .\stm32f10x_it.d)
+I (stm32f10x_it.h)(0x4D99A59E)
+I (stm32f10x.h)(0x59438948)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (system_stm32f10x.h)(0x4D783CAA)
+I (stm32f10x_conf.h)(0x5943887C)
+I (..\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x59438948)
+I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\inc\misc.h)(0x4D783BB4)
+I (E:\keil5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (E:\keil5\ARM\ARMCC\include\string.h)(0x57F606B8)
+F (.\system_stm32f10x.c)(0x4D99A59E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\system_stm32f10x.o --omf_browse .\system_stm32f10x.crf --depend .\system_stm32f10x.d)
+I (stm32f10x.h)(0x59438948)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (system_stm32f10x.h)(0x4D783CAA)
+I (stm32f10x_conf.h)(0x5943887C)
+I (..\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x59438948)
+I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\inc\misc.h)(0x4D783BB4)
+F (..\FWLIB\src\misc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\misc.o --omf_browse .\misc.crf --depend .\misc.d)
+I (..\FWLIB\inc\misc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x59438948)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x5943887C)
+I (..\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+F (..\FWLIB\src\stm32f10x_usart.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_usart.o --omf_browse .\stm32f10x_usart.crf --depend .\stm32f10x_usart.d)
+I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x59438948)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x5943887C)
+I (..\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\inc\misc.h)(0x4D783BB4)
+F (..\FWLIB\src\stm32f10x_tim.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_tim.o --omf_browse .\stm32f10x_tim.crf --depend .\stm32f10x_tim.d)
+I (..\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x59438948)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x5943887C)
+I (..\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\inc\misc.h)(0x4D783BB4)
+F (..\FWLIB\src\stm32f10x_spi.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_spi.o --omf_browse .\stm32f10x_spi.crf --depend .\stm32f10x_spi.d)
+I (..\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x59438948)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x5943887C)
+I (..\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\inc\misc.h)(0x4D783BB4)
+F (..\FWLIB\src\stm32f10x_rtc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_rtc.o --omf_browse .\stm32f10x_rtc.crf --depend .\stm32f10x_rtc.d)
+I (..\FWLIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x59438948)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x5943887C)
+I (..\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\inc\misc.h)(0x4D783BB4)
+F (..\FWLIB\src\stm32f10x_gpio.c)(0x4D79EEC6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_gpio.o --omf_browse .\stm32f10x_gpio.crf --depend .\stm32f10x_gpio.d)
+I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x59438948)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x5943887C)
+I (..\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\inc\misc.h)(0x4D783BB4)
+F (..\FWLIB\src\stm32f10x_dbgmcu.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_dbgmcu.o --omf_browse .\stm32f10x_dbgmcu.crf --depend .\stm32f10x_dbgmcu.d)
+I (..\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x59438948)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x5943887C)
+I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\inc\misc.h)(0x4D783BB4)
+F (..\FWLIB\src\stm32f10x_rcc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_rcc.o --omf_browse .\stm32f10x_rcc.crf --depend .\stm32f10x_rcc.d)
+I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x59438948)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x5943887C)
+I (..\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\inc\misc.h)(0x4D783BB4)
+F (..\CORE\core_cm3.c)(0x4C0C587E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\core_cm3.o --omf_browse .\core_cm3.crf --depend .\core_cm3.d)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+F (..\CORE\startup_stm32f10x_hd.s)(0x5948FB19)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o .\startup_stm32f10x_hd.o --depend .\startup_stm32f10x_hd.d)
+F (..\DELAY\delay.c)(0x59437FFB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (..\DELAY\delay.h)(0x59437A04)
+I (..\USER\stm32f10x.h)(0x59438948)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x5943887C)
+I (..\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\inc\misc.h)(0x4D783BB4)
+F (..\USART\usart.c)(0x5940FD55)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\usart.o --omf_browse .\usart.crf --depend .\usart.d)
+I (..\USART\usart.h)(0x5940F49F)
+I (E:\keil5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\USER\stm32f10x.h)(0x59438948)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x5943887C)
+I (..\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\inc\misc.h)(0x4D783BB4)
+F (..\HARDWARE\LED\led.c)(0x56EB538D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (..\HARDWARE\LED\led.h)(0x56EB53AA)
+I (..\USER\stm32f10x.h)(0x59438948)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x5943887C)
+I (..\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\inc\misc.h)(0x4D783BB4)
+F (..\HARDWARE\SPI\spi.c)(0x596C1505)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\spi.o --omf_browse .\spi.crf --depend .\spi.d)
+I (..\HARDWARE\Ethernet\wizchip_conf.h)(0x5941F519)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\HARDWARE\Ethernet\W5500/w5500.h)(0x59438A28)
+I (..\HARDWARE\SPI\spi.h)(0x59688C6D)
+I (..\USER\stm32f10x.h)(0x59438948)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x5943887C)
+I (..\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\inc\misc.h)(0x4D783BB4)
+F (..\HARDWARE\TIME\Time_test.c)(0x59438B20)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\time_test.o --omf_browse .\time_test.crf --depend .\time_test.d)
+I (..\HARDWARE\TIME\Time_test.h)(0x59438B34)
+I (..\USER\stm32f10x.h)(0x59438948)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x5943887C)
+I (..\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\inc\misc.h)(0x4D783BB4)
+F (.\OLED.c)(0x596C4466)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\USART -I..\HARDWARE\DHCP -I..\HARDWARE\Ethernet -I..\HARDWARE\Ethernet\W5500 -I..\HARDWARE\LED -I..\HARDWARE\qxwz_sdk -I..\HARDWARE\SPI -I..\HARDWARE\TIME -I..\FWLIB\inc -I..\DELAY -I..\CORE-I C:\Users\DELL\Desktop\фад╩\STM32_OLED\USER\RTE-I E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I E:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\oled.o --omf_browse .\oled.crf --depend .\oled.d)
+I (OLED.h)(0x596C446E)
+I (stm32f10x.h)(0x59438948)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\keil5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (system_stm32f10x.h)(0x4D783CAA)
+I (stm32f10x_conf.h)(0x5943887C)
+I (..\FWLIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x59438948)
+I (..\FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\inc\misc.h)(0x4D783BB4)
+I (oled_font.h)(0x596C445F)
+I (..\HARDWARE\SPI\spi.h)(0x59688C6D)

@@ -1,0 +1,15 @@
+.\time_test.o: ..\HARDWARE\TIME\Time_test.c
+.\time_test.o: ..\HARDWARE\TIME\Time_test.h
+.\time_test.o: ..\USER\stm32f10x.h
+.\time_test.o: ..\CORE\core_cm3.h
+.\time_test.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\time_test.o: ..\USER\system_stm32f10x.h
+.\time_test.o: ..\USER\stm32f10x_conf.h
+.\time_test.o: ..\FWLIB\inc\stm32f10x_dbgmcu.h
+.\time_test.o: ..\USER\stm32f10x.h
+.\time_test.o: ..\FWLIB\inc\stm32f10x_gpio.h
+.\time_test.o: ..\FWLIB\inc\stm32f10x_rcc.h
+.\time_test.o: ..\FWLIB\inc\stm32f10x_spi.h
+.\time_test.o: ..\FWLIB\inc\stm32f10x_tim.h
+.\time_test.o: ..\FWLIB\inc\stm32f10x_usart.h
+.\time_test.o: ..\FWLIB\inc\misc.h

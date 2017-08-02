@@ -1,0 +1,152 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.2
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Cortex-M3, wxc, LIC=03CQD-8A55R-541SV-P6BIH-JDCA7-LWKRH
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.23
+Toolchain Path:  E:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+C:\Users\DELL\Desktop\Ç§Ñ°\QXW5500\qx.uvprojx
+Project File Date:  <unknown>
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'E:\keil5\ARM\ARMCC\Bin'
+Build target 'Target'
+compiling main.c...
+.\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+.\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+USER\main.c(39): warning:  #188-D: enumerated type mixed with another type
+                if(ctlwizchip(0,(void*)memsize) == -1){
+USER\main.c(22): warning:  #177-D: variable "ret"  was declared but never referenced
+                int32_t ret; // return value for SOCK_ERRORs
+USER\main.c(23): warning:  #177-D: variable "size"  was declared but never referenced
+      uint16_t size = 0, sentsize=0;
+USER\main.c(23): warning:  #177-D: variable "sentsize"  was declared but never referenced
+      uint16_t size = 0, sentsize=0;
+USER\main.c: 5 warnings, 1 error
+compiling network.c...
+USER\network.c(49): warning:  #550-D: variable "sentsize"  was set but never used
+     uint16_t size = 0, sentsize=0;
+USER\network.c: 1 warning, 0 errors
+compiling qianxun.c...
+USER\qianxun.c(86): warning:  #550-D: variable "ret"  was set but never used
+        int32_t ret;
+USER\qianxun.c: 1 warning, 0 errors
+compiling stm32f10x_it.c...
+USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+USER\stm32f10x_it.c: 1 warning, 1 error
+compiling system_stm32f10x.c...
+USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+USER\system_stm32f10x.c: 1 warning, 1 error
+compiling misc.c...
+.\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+.\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+FWLIB\src\misc.c: 1 warning, 1 error
+compiling stm32f10x_gpio.c...
+.\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+.\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+FWLIB\src\stm32f10x_gpio.c: 1 warning, 1 error
+compiling stm32f10x_rcc.c...
+.\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+.\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+FWLIB\src\stm32f10x_rcc.c: 1 warning, 1 error
+compiling stm32f10x_rtc.c...
+.\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+.\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+FWLIB\src\stm32f10x_rtc.c: 1 warning, 1 error
+compiling stm32f10x_spi.c...
+.\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+.\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+FWLIB\src\stm32f10x_spi.c: 1 warning, 1 error
+compiling stm32f10x_tim.c...
+.\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+.\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+FWLIB\src\stm32f10x_tim.c: 1 warning, 1 error
+compiling stm32f10x_usart.c...
+.\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+.\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+FWLIB\src\stm32f10x_usart.c: 1 warning, 1 error
+compiling core_cm3.c...
+assembling startup_stm32f10x_md.s...
+compiling delay.c...
+.\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+.\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+DELAY\delay.c: 1 warning, 1 error
+compiling usart.c...
+.\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+.\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+USART\usart.c: 1 warning, 1 error
+compiling dhcp.c...
+compiling w5500.c...
+compiling socket.c...
+compiling wizchip_conf.c...
+compiling led.c...
+.\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+.\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+HARDWARE\LED\led.c: 1 warning, 1 error
+compiling spi.c...
+.\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+.\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+HARDWARE\SPI\spi.c: 1 warning, 1 error
+compiling Time_test.c...
+.\USER\stm32f10x.h(298): error:  #67: expected a "}"
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+.\USER\stm32f10x.h(472): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+HARDWARE\TIME\Time_test.c: 1 warning, 1 error
+".\Objects\qx.axf" - 15 Error(s), 21 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\DELL\Desktop\Ç§Ñ°\QXW5500\RTE
+  E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+</pre>
+</body>
+</html>
